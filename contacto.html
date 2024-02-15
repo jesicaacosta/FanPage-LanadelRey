@@ -44,16 +44,49 @@
         </div>
     </nav>
 
+<main>
     <section id="contacto">
-        <article>
-            <h2>¡Contáctame!</h2>
-            <p>Si tienes alguna pregunta o comentario, no dudes en contactarme:</p>
-            <address>
-                Email: tu@email.com<br>
-                Teléfono: +123456789
-            </address>
-        </article>
+        <h2>Contacto</h2>
+        <form id="contact-form" action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <div class="radio-group">
+                <label>Motivo de contacto:</label>
+    
+                <div>
+                    <input type="radio" id="error" name="tipo-contacto" value="error" required>
+                    <label for="error">Reportar un error</label>
+                </div>
+    
+                <div>
+                    <input type="radio" id="colaborar" name="tipo-contacto" value="colaborar" required>
+                    <label for="colaborar">Colaborar</label>
+                </div>
+    
+                <div>
+                    <input type="radio" id="contratar" name="tipo-contacto" value="contratar" required>
+                    <label for="contratar">Contratar servicios</label>
+                </div>
+            </div>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <div class="button-group">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </div>
+        </form>
     </section>
+    
+
 
     <!-- Footer -->
     <footer>

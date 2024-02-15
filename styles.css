@@ -162,3 +162,69 @@ main {
          color: #90aa86;
          font-style: italic;
 }
+
+
+/* Contacto */
+
+/* Contacto */
+
+#contacto {
+         margin: 20px;
+         padding: 20px;
+         background-color: var(--dutch-white);
+         border-radius: 10px;
+     }
+     
+     form {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 20px;
+     }
+     
+     label {
+         margin-bottom: 2px;
+         display: block;
+     }
+     
+     input,
+     textarea {
+         width: 100%;
+         padding: 2px;
+         border: 1px solid var(--violet-jtc);
+         border-radius: 5px;
+         background-color: antiquewhite;
+     }
+     
+     .radio-group {
+         grid-column: span 2;
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     .radio-group label {
+         margin: 0;
+     }
+     
+     .button-group {
+         grid-column: span 2;
+         text-align: center;
+     }
+     
+     button {
+         padding: 10px 20px;
+         margin: 0 10px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+     }
+     
+     button[type="submit"] {
+         background-color: var(--violet-jtc);
+         color: var(--dutch-white);
+     }
+     
+     button[type="reset"] {
+         background-color: var(--cambridge-blue);
+         color: var(--violet-jtc);
+     }
+     
