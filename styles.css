@@ -1,0 +1,171 @@
+/*Colores }
+/* CSS HEX 
+--dutch-white: #dccca3ff;
+--plum: #824c71ff;
+--violet-jtc: #4a2545ff;
+--black: #000001ff;
+--cambridge-blue: #90aa86ff;
+*/
+* {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+}
+
+a {
+         list-style: none;
+         color: blueviolet;
+         font-family: "Raleway", sans-serif;
+
+}
+
+h2 {
+         font-size: 1.3em;
+         margin: 1.3em 0;
+         color: #4a2545ff;
+}
+
+/* styles.css */
+
+/* Estilo para las imágenes dentro de los artículos */
+.img-articleA {
+         width: 80%;
+         height: 50%;
+         object-fit: cover;
+}
+
+
+body {
+         font-family: Arial, sans-serif;
+         padding: 0;
+         box-sizing: border-box;
+}
+
+header {
+         color: #fff;
+         padding: 10px;
+         text-align: center;
+}
+
+p {
+         font-family: "Raleway", sans-serif;
+         font-size: 14px;
+}
+
+nav {
+         margin-top: 10px;
+         background-color: #dccca3ff;
+         height: 20vh;
+         position: absolute;
+         top: 0;
+}
+
+nav ul {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+
+}
+
+nav ul li {
+         display: inline;
+         margin-right: 20px;
+}
+
+.articulosPrincipales{
+         margin: 100px 10px;
+         text-align: center;
+}
+.articulosPrincipales p {
+         font-size: .7em;
+         overflow-y:visible;
+}
+
+
+/* Colores */
+:root {
+         --dutch-white: #dccca3ff;
+         --plum: #824c71ff;
+         --violet-jtc: #4a2545ff;
+         --black: #000001ff;
+         --cambridge-blue: #90aa86ff;
+     }
+     
+     /* Estilos para el footer */
+     footer {
+         background-color: var(--dutch-white);
+         padding: 10px 0;
+         text-align: center;
+         width: 100vw;
+         height: auto;
+     }
+     
+     .footer-container {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         max-width: 1200px;
+         margin: 0 auto;
+         padding: 20px;
+     }
+     
+     .footer-column {
+         flex: 1;
+         max-width: 400px;
+     }
+     
+     .footer-column h4 {
+         color: var(--plum);
+         font-size: 1.1em;
+         margin-bottom: 10px;
+     }
+     
+     .footer-column ul {
+         list-style: none;
+         padding: 0;
+         font-size: .8em;
+     }
+     
+     .footer-column li {
+         margin-bottom: 8px;
+     }
+     
+     .footer-column a {
+         text-decoration: none;
+         color: var(--cambridge-blue);
+         font-size: .8em;
+         color: #824c71ff;
+
+     }
+     
+     .footer-column a:hover {
+         color: var(--black);
+     }
+     .footer-column p {
+         font-size: .8em;
+     }
+
+/* Pagina Discografia */
+.discografia {
+         background-color: antiquewhite;
+         padding: 40px;
+}
+.cardDiscos h5 {
+         font-size: 1em;
+         color: #824c71ff;
+}
+.cardDiscos li {
+         font-size: .8em;
+}
+
+i {
+         font-size: .6em;
+}
+
+.footer-column .icon-png {
+         width: 20px; /* Ajusta el tamaño según tus necesidades */
+         height: 20px;
+         vertical-align: middle;
+         margin-right: 5px; /* Espacio entre el ícono y el texto */
+     }
+     
