@@ -14,18 +14,29 @@
 
 a {
          list-style: none;
-         color: blueviolet;
          font-family: "Raleway", sans-serif;
-
+         color: #ff4b90;
 }
 
-h2 {
+h2,h3,h4,h5, .footer-dev {
          font-size: 1.3em;
-         margin: 1.3em 0;
-         color: #4a2545ff;
+         margin: 1em 0;
+         color: #ff4b90;
 }
 
-/* styles.css */
+header {
+         padding: 10px;
+         text-align: center;
+}
+
+/* Index */
+.nombrePrincipal{  
+         color: #ff4b90;
+         font-size: 1.4em;
+         font-family: "Protest Riot", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+}
 
 /* Estilo para las imágenes dentro de los artículos */
 .img-articleA {
@@ -38,47 +49,44 @@ h2 {
 body {
          font-family: Arial, sans-serif;
          padding: 0;
-         box-sizing: border-box;
 }
 
-header {
-         color: #fff;
-         padding: 10px;
-         text-align: center;
-}
-
-p {
-         font-family: "Raleway", sans-serif;
-         font-size: 14px;
-}
-
-nav {
-         margin-top: 10px;
-         background-color: #dccca3ff;
-         height: 20vh;
-         position: absolute;
+.navbar {
+         position: fixed;
+         z-index: 100;
          top: 0;
+         width: 100%;
 }
-
 nav ul {
          list-style: none;
          padding: 0;
          margin: 0;
-
+         font-weight: bold;
 }
 
 nav ul li {
          display: inline;
          margin-right: 20px;
+
+}
+
+
+
+/*MAIN */
+
+main {
+         position: relative;
+         margin: 200px 10px;
+
 }
 
 .articulosPrincipales{
-         margin: 100px 10px;
          text-align: center;
+         margin-bottom:  80px ;
 }
 .articulosPrincipales p {
-         font-size: .7em;
-         overflow-y:visible;
+         font-size: 1em;
+         font-family: "Raleway", sans-serif;
 }
 
 
@@ -93,17 +101,15 @@ nav ul li {
      
      /* Estilos para el footer */
      footer {
-         background-color: var(--dutch-white);
-         padding: 10px 0;
+         background-color: #fdeedd;
+         padding: 5px 0;
          text-align: center;
          width: 100vw;
-         height: auto;
      }
      
      .footer-container {
          display: flex;
-         flex-direction: row;
-         justify-content: space-around;
+         flex-direction: column;
          max-width: 1200px;
          margin: 0 auto;
          padding: 20px;
@@ -112,12 +118,6 @@ nav ul li {
      .footer-column {
          flex: 1;
          max-width: 400px;
-     }
-     
-     .footer-column h4 {
-         color: var(--plum);
-         font-size: 1.1em;
-         margin-bottom: 10px;
      }
      
      .footer-column ul {
@@ -130,42 +130,35 @@ nav ul li {
          margin-bottom: 8px;
      }
      
-     .footer-column a {
-         text-decoration: none;
-         color: var(--cambridge-blue);
-         font-size: .8em;
-         color: #824c71ff;
-
-     }
      
      .footer-column a:hover {
-         color: var(--black);
+         background-color: #f7e0c6;
+         color: black;
      }
      .footer-column p {
-         font-size: .8em;
+         font-size: 1em;
      }
+
+     .footer-column .icon-png {
+         width: 20px; 
+         height: 20px;
+         vertical-align: middle;
+         margin-right: 5px;
+     }
+     
+
+
 
 /* Pagina Discografia */
 .discografia {
-         background-color: antiquewhite;
          padding: 40px;
+         margin: 200px auto;
 }
-.cardDiscos h5 {
-         font-size: 1em;
-         color: #824c71ff;
+.ul-card-text {
+         text-align: center;
+         border: 2px solid rebeccapurple;
 }
-.cardDiscos li {
-         font-size: .8em;
+.card-text {
+         color: #90aa86;
+         font-style: italic;
 }
-
-i {
-         font-size: .6em;
-}
-
-.footer-column .icon-png {
-         width: 20px; /* Ajusta el tamaño según tus necesidades */
-         height: 20px;
-         vertical-align: middle;
-         margin-right: 5px; /* Espacio entre el ícono y el texto */
-     }
-     
