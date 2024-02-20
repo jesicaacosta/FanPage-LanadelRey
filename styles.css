@@ -36,8 +36,11 @@ header {
 }
 
 /* Estilo para las imágenes dentro de los artículos */
+.articulosPrincipales {
+         width: 100vw;
+         border: 2px solid red;
+}
 .img-articleA {
-         width: 80%;
          height: 50%;
          object-fit: cover;
 }
