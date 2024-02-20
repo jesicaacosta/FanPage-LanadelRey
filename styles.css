@@ -38,7 +38,6 @@ header {
 /* Estilo para las imágenes dentro de los artículos */
 .articulosPrincipales {
          width: 100vw;
-         border: 2px solid red;
 }
 .img-articleA {
          height: 50%;
@@ -112,6 +111,7 @@ footer {
          max-width: 1200px;
          margin: 0 auto;
          padding: 20px;
+         align-items: center;
 }
 
 .footer-column {
