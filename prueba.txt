@@ -1,1 +1,3 @@
 Prueba echo
+Append nueva linea al archivo con >> 
+Cat ver archivo por terminal
